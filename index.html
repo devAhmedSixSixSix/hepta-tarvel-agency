@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Hepta </title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- swiper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- google fonts -->
+    <!-- for the head-lines -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <!-- for the body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald:wght@200;400;500;600;700&family=Roboto:ital,wght@0,300;1,100&display=swap"
+        rel="stylesheet">
+
+    <!-- main css style -->
+    <link rel="stylesheet" href="./css/main.css">
+
+
+
+</head>
+
+<body>
+    <!-- start navbar -->
+
+    <nav class="navbar bg-transparent fixed-top nav-scroll">
+        <div class="container-fluid">
+            <a class="navbar-brand head-liens-font d-flex align-items-center" href="#">
+                <p class="m-0 pe-2 text-white">
+                    Hepta Tours
+                </p>
+                <img src="./image/greek_flag.png" width="33" height="33" alt="greek flag">
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <div class="offcanvas-title d-flex align-items-center head-liens-font" id="offcanvasNavbarLabel">
+                        <p class="m-0 pe-2">
+                            Hepta Agency
+                        </p>
+                        <img src="./image/greek_flag.png" width="33" height="33" alt="greek flag">
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navbar -->
+
+    <!-- start header -->
+    <div class="header">
+        <div class="overlay d-flex align-items-center">
+            <div class="container justify-content-center fade-in">
+                <div class="text-center">
+                    <h2 class="header-font text-white">Hepta Travels & Tours Agency</h2>
+                    <p class="text-white">Checkout our Greek tours programs</p>
+                    <button class="btn btn-outline-light py-2 px-4">Contact Us</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+
+    <!-- start about us -->
+    <div class="about-us py-5">
+        <div class="container fade-in">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-6">
+                    <img src="./image/about-us.webp" alt="about-us" class="w-100">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <h2 class="head-liens-font">Best Tour Gied's in the world</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem amet
+                        assumenda
+                        ipsum cum
+                        veritatis
+                        veniam
+                        suscipit aliquam illum aspernatur, unde laborum ad fuga cupiditate tenetur quas architecto.
+                        Minus,
+                        amet
+                        esse!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about us -->
+
+    <!-- start info -->
+    <div class="info text-center bg-light py-5">
+        <div class="container fade-in">
+            <h2 class="head-liens-font">Exprexperience of a lifetime</h2>
+            <p class="pt-3 pb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus omnis,
+                perspiciatis
+                pariatur, iste
+                officia dignissimos ut est nemo vel mollitia molestiae reiciendis cumque quasi alias sunt rerum.
+                Quisquam, non veritatis.</p>
+            <div class="row pb-5">
+                <div class="col-sm-12 col-md-4">
+                    <img src="./image/food-icon.png" alt="food-icon">
+                    <h4 class="head-liens-font pt-3 pb-2">Greate food</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sunt officiis dignissimos
+                        neque
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <img src="./image/travel-icon.png" alt="travel-icon">
+                    <h4 class="head-liens-font  pt-3 pb-2">Travel any where</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sunt officiis dignissimos
+                        neque
+                    </p>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <img src="./image/plan-icon.png" alt="plan-icon">
+                    <h4 class="head-liens-font  pt-3 pb-2">Air Plane</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sunt officiis dignissimos
+                        neque
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <img src="./image/beach-icon.png" alt="beach-icon">
+
+                    <h4 class="head-liens-font  pt-3 pb-2">Beach & Resort</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sunt officiis dignissimos
+                        neque
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <img src="./image/climbing-icon.png" alt="climbing-icon">
+
+                    <h4 class="head-liens-font pt-3 pb-2">climbing Mounting</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sunt officiis dignissimos
+                        neque
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <img src="./image/ballon-icon.png" alt="ballon-icon">
+
+                    <h4 class="head-liens-font  pt-3 pb-2">Air Ballon</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sunt officiis dignissimos
+                        neque
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end info -->
+
+    <!-- start tour-program -->
+    <div class="tour-program pb-5 text-center">
+        <div class="container fade-in">
+            <h2 class="head-liens-font">Five star tour mangement</h2>
+            <p class="pt-3 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veritatis corrupti
+                aperiam
+                nostrum.
+                Animi aut nesciunt possimus sequi, minus minima corporis, perferendis pariatur assumenda, consectetur
+                nemo quidem facere voluptate suscipit.</p>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./image/restaurant-01.jpg" class="main-height" alt="restaurant">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/art.jpg" class="main-height" alt="art">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/beach-01.jpg" class="main-height" alt="beach">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end tour-program -->
+
+    <!-- start blog -->
+    <div class="blog py-5 mb-5 text-white">
+        <div class="container pt-5 fade-in">
+            <div class="text-center">
+                <h2 class="head-liens-font">Our Blog</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque tempora molestiae similique saepe
+                    molestias dignissimos minima dolores, ipsum qui voluptate totam obcaecati, nisi repudiandae
+                    doloremque
+                    aut fugiat veritatis, laudantium nam!</p>
+            </div>
+            <div class="row pt-5">
+                <div class="col-sm-12 col-md-4">
+                    <img src="./image/restaurant-02.jpg" class="w-100  h-75" alt="restaurant">
+                    <p class="m-0">FEB 26, 2023</p>
+                    <h6 class="head-liens-font">Best 45 restaurant in the city</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dolore ad minus et corrupti,
+                        error praesentium enim omnis dolores, facere, illo expedita asperiores quas? Iure, perspiciatis?
+                        Aspernatur expedita illum perspiciatis.</p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <img src="./image/hotel.jpg" class="w-100 h-75" alt="hotel">
+                    <p class="m-0">June 11, 2023</p>
+                    <h6 class="head-liens-font">Best 45 hotel in the city</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dolore ad minus et corrupti,
+                        error praesentium enim omnis dolores, facere, illo expedita asperiores quas? Iure, perspiciatis?
+                        Aspernatur expedita illum perspiciatis.</p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <img src="./image/party.jpg" class="w-100  h-75" alt="club">
+                    <p class="m-0">Mars 26, 2023</p>
+                    <h6 class="head-liens-font">Best 45 place to unwind</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dolore ad minus et corrupti,
+                        error praesentium enim omnis dolores, facere, illo expedita asperiores quas? Iure, perspiciatis?
+                        Aspernatur expedita illum perspiciatis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end blog -->
+
+    <!-- start testimonials -->
+    <div class="testimonials bg-light py-5 my-5">
+        <div class="container fade-in">
+            <h2 class="head-liens-font text-center pb-5">Happy Traveler</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <img src="./image/avatar-01.png" class="rounded-circle mb-3" width="64" height="64" alt="avatar">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid iste deleniti debitis voluptate
+                        ad
+                        mollitia accusamus et quae maxime id? Rem voluptatibus fugit nihil alias cupiditate autem at ea
+                        aliquid!</p>
+                    <p>--samantha</p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <img src="./image/avatar-02.png" class="rounded-circle mb-3" width="64" height="64" alt="avatar">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid iste deleniti debitis voluptate
+                        ad
+                        mollitia accusamus et quae maxime id? Rem voluptatibus fugit nihil alias cupiditate autem at ea
+                        aliquid!</p>
+                    <p>--Michael</p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <img src="./image/avatar-03.png" class="rounded-circle mb-3" width="64" height="64" alt="avatar">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid iste deleniti debitis voluptate
+                        ad
+                        mollitia accusamus et quae maxime id? Rem voluptatibus fugit nihil alias cupiditate autem at ea
+                        aliquid!</p>
+                    <p>--Michelle</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end testimonials -->
+
+    <!-- start top destination -->
+    <div class="top-destination py-5">
+        <div class="container fade-in">
+            <div class="text-center">
+                <h2 class="head-liens-font">Top Destination</h2>
+                <p class="pt-3 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laudantium est
+                    ab illo ipsam
+                    illum
+                    doloribus minima natus error cum incidunt odit quaerat repellendus maxime, explicabo vero. Et, alias
+                    porro.</p>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <img src="./image/whine.jpg" class="w-100 h-75" alt="whine">
+                    <h6 class="head-liens-font mb-0">Food & whine</h6>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <p>2,283 review</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img src="./image/spa.jpg" class="w-100 h-75" alt="spa">
+                    <h6 class="head-liens-font mb-0">Resort & Spa</h6>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <p>3,784 review</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img src="./image/beach-02.jpg" class="w-100 h-75" alt="beach">
+                    <h6 class="head-liens-font mb-0">Hotel Roms</h6>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <p>1,782 review</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img src="./image/room.jpg" class="w-100 h-75" alt="hotel room">
+                    <h6 class="head-liens-font mb-0">Day at the beach</h6>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                        <p>4,022 review</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end top destination -->
+
+    <!-- bootstrap scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- swiper scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            // pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <!-- main js script -->
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
