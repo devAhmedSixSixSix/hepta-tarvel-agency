@@ -23,7 +23,7 @@ Users should be able to:
 
  
 ## What I learned
-A great project to practice some basics of HTML, CSS and JavaScript.
+A great project to practice some basics of HTML, CSS, Bootstarp and JavaScript.
 
 <h6 align="center">
  Thanks for checking out Have fun cOdErZ!** 🚀
